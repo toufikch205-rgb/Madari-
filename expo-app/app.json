@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Madari",
+    "slug": "madari",
+    "scheme": "madari",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.madari.app"
+    },
+    "android": {
+      "package": "com.madari.app"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
